@@ -1,5 +1,5 @@
 import React from 'react';
-import {FormattedMessage} from 'react-intl';
+import { FormattedMessage } from 'react-intl';
 
 import musicIconURL from './music/music.png';
 import musicInsetIconURL from './music/music-small.svg';
@@ -45,6 +45,9 @@ import gdxforIconURL from './gdxfor/gdxfor.png';
 import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
+
+import minecraftIconURL from './minecraft/minecraft.png';
+import minecraftInsetIconURL from './minecraft/minecraft-small.png';
 
 export default [
     {
@@ -317,5 +320,14 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    },
+    {
+        name: 'Minecraft',
+        extensionId: 'minecraft',
+        iconURL: minecraftIconURL,
+        insetIconURL: minecraftInsetIconURL,
+        description: 'forked from micramming',
+        featured: true,
+        disabled: false
     }
 ];
